@@ -1,6 +1,11 @@
 import argparse
 import os
+import sys
 from dotenv import load_dotenv
+
+# Force UTF-8 output on Windows to handle emoji and special characters
+if sys.stdout.encoding != "utf-8":
+    sys.stdout.reconfigure(encoding="utf-8")
 
 load_dotenv()
 
