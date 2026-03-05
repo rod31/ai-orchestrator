@@ -64,7 +64,7 @@ class CodingWorkflow:
     def __init__(
         self,
         working_directory: str = ".",
-        model: str = "claude-opus-4-6",
+        model: str = "claude-sonnet-4-6",
         api_key: str | None = None,
     ):
         self.working_directory = os.path.abspath(working_directory)

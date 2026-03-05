@@ -7,6 +7,6 @@ langgraph-prebuilt==1.0.8
 langsmith==0.7.12
 pydantic==2.12.5
 python-dotenv==1.2.2
-duckduckgo-search>=6.2.0
+ddgs>=0.1.0
 requests>=2.31.0
 beautifulsoup4>=4.12.0
